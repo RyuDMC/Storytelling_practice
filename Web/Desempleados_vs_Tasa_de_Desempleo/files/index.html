@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>El denominador invisible: por qué suben los parados y baja la tasa de paro</title>
+<meta name="description" content="Dos cifras de la EPA parecen contradecirse. La fórmula de la tasa de paro explica por qué ambas son verdaderas.">
+<meta property="og:title" content="El denominador invisible: por qué suben los parados y baja la tasa de paro">
+<meta property="og:description" content="Dos cifras de la EPA parecen contradecirse. La fórmula de la tasa de paro explica por qué ambas son verdaderas.">
+<meta property="og:type" content="article">
+<!-- TODO: og:image (assets/og-image.svg) requiere hosting de archivos; no se incluye en esta versión de un solo archivo. -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="pb" aria-hidden="true"></div>
+<main>
+
+<header class="hero"><div class="wrap">
+<h1>El denominador invisible</h1>
+<p class="sub">Cómo pueden subir los parados y bajar la tasa de paro al mismo tiempo</p>
+<p class="w">Dos cifras de la misma EPA, un año que parece contradecirse y una fórmula que lo explica. Un relato sobre lo que mide cada número.</p>
+<div class="cards">
+<div class="big c"><b>2.591.200</b><span>parados · tercer trimestre de 2026</span></div>
+<div class="big r"><b>10,18%</b><span>tasa de paro · tercer trimestre de 2026</span></div>
+</div>
+<p class="q">¿Son la misma cosa?</p>
+<p><em>Las dos son verdad. Baja para ver por qué.</em></p>
+<p class="scroll" aria-hidden="true">Desliza hacia abajo ↓</p>
+</div></header>
+
+<section class="rv"><div class="wrap w">
+<h2>Escena 1 — El paro como un solo número</h2>
+<!-- TODO: la afirmación sobre los titulares es un recurso narrativo sin fuente; verificar o suavizar. -->
+<p>Cada trimestre, la misma escena. El INE publica la EPA, los titulares se dividen entre “el paro sube” y “el paro baja”, y cada uno elige la cifra que confirma lo que ya pensaba.</p>
+<p>En el tercer trimestre de 2026, la EPA dio dos datos que pueden convivir en la misma portada: <strong>2.591.200 personas paradas</strong> y una <strong>tasa de paro del 10,18%</strong>. La primera es un recuento; la segunda, una proporción. Si no sabes cuál estás leyendo, la discusión está perdida antes de empezar.</p>
+</div></section>
+
+<section class="rv"><div class="wrap">
+<div class="w">
+<h2>Escena 2 — El año que parece contradecirse</h2>
+<p>En 2007, la EPA anual registró <strong>1.846,1 mil parados</strong>, 5,2 mil más que en 2006. Parece una mala noticia. Pero la tasa bajó del <strong>8,45% al 8,23%</strong>.</p>
+<p>Más parados y menos tasa. La intuición dice que una de las dos cifras está mal. No lo está. Lo que falla es la pregunta: una cifra cuenta personas; la otra mide la proporción de la población activa que no encuentra empleo.</p>
+<span class="badge">Misma fuente · misma población · mismo corte</span>
+</div>
+<div class="pair c">
+<figure>
+<svg viewBox="0 0 440 270" role="img" aria-labelledby="a1t a1d"><title id="a1t">Parados, media anual 2006 y 2007</title><desc id="a1d">Dos puntos casi a la misma altura: 1.840,9 mil en 2006 y 1.846,1 mil en 2007, un aumento de 5,2 mil. El eje empieza en cero.</desc>
+<line class="gr" x1="70" x2="410" y1="30" y2="30"/><line class="gr" x1="70" x2="410" y1="125" y2="125"/><line class="ax" x1="70" x2="410" y1="220" y2="220"/><line class="ax" x1="70" x2="70" y1="30" y2="220"/>
+<text class="t" x="62" y="34" text-anchor="end">2.000</text><text class="t" x="62" y="129" text-anchor="end">1.000</text><text class="t" x="62" y="224" text-anchor="end">0</text>
+<text class="t" x="70" y="16">Parados (miles de personas)</text>
+<line x1="140" y1="45.1" x2="340" y2="44.6" stroke="var(--cnt)" stroke-width="3"/>
+<circle cx="140" cy="45.1" r="6" fill="var(--cnt)"/><circle cx="340" cy="44.6" r="6" fill="var(--cnt)"/>
+<text class="t tv" x="140" y="72" text-anchor="middle" fill="var(--cnt)" style="fill:var(--cnt)">1.840,9</text><text class="t tv" x="340" y="72" text-anchor="middle" style="fill:var(--cnt)">1.846,1</text>
+<text class="t tv" x="240" y="108" text-anchor="middle" style="fill:var(--cnt)">+5,2 mil</text>
+<text class="t" x="140" y="242" text-anchor="middle">2006</text><text class="t" x="340" y="242" text-anchor="middle">2007</text>
+</svg>
+<figcaption>Recuento: parados. Eje propio desde cero.</figcaption>
+<table class="sr"><caption>Parados, media anual (miles)</caption><tr><th>Año</th><th>Parados</th></tr><tr><td>2006</td><td>1.840,9</td></tr><tr><td>2007</td><td>1.846,1</td></tr></table>
+</figure>
+<figure>
+<svg viewBox="0 0 440 270" role="img" aria-labelledby="a2t a2d"><title id="a2t">Tasa de paro, media anual 2006 y 2007</title><desc id="a2d">La tasa baja de 8,45% en 2006 a 8,23% en 2007, una caída de 0,22 puntos porcentuales. El eje empieza en cero.</desc>
+<line class="gr" x1="70" x2="410" y1="30" y2="30"/><line class="gr" x1="70" x2="410" y1="125" y2="125"/><line class="ax" x1="70" x2="410" y1="220" y2="220"/><line class="ax" x1="70" x2="70" y1="30" y2="220"/>
+<text class="t" x="62" y="34" text-anchor="end">10%</text><text class="t" x="62" y="129" text-anchor="end">5%</text><text class="t" x="62" y="224" text-anchor="end">0%</text>
+<text class="t" x="70" y="16">Tasa de paro (%)</text>
+<line x1="140" y1="59.4" x2="340" y2="63.6" stroke="var(--rate)" stroke-width="3"/>
+<circle cx="140" cy="59.4" r="6" fill="var(--rate)"/><circle cx="340" cy="63.6" r="6" fill="var(--rate)"/>
+<text class="t tv" x="140" y="46" text-anchor="middle" style="fill:var(--rate)">8,45%</text><text class="t tv" x="340" y="90" text-anchor="middle" style="fill:var(--rate)">8,23%</text>
+<text class="t tv" x="240" y="108" text-anchor="middle" style="fill:var(--rate)">−0,22 pp</text>
+<text class="t" x="140" y="242" text-anchor="middle">2006</text><text class="t" x="340" y="242" text-anchor="middle">2007</text>
+</svg>
+<figcaption>Proporción: tasa de paro. Eje propio desde cero.</figcaption>
+<table class="sr"><caption>Tasa de paro, media anual</caption><tr><th>Año</th><th>Tasa</th></tr><tr><td>2006</td><td>8,45%</td></tr><tr><td>2007</td><td>8,23%</td></tr></table>
+</figure>
+</div>
+</div></section>
+
+<section class="rv"><div class="wrap">
+<div class="s3">
+<div class="w">
+<h2>Escena 3 — El guardián del denominador</h2>
+<p>Antes de aceptar el misterio, el guardián del denominador pone condiciones: ¿personas o porcentaje? ¿Misma fuente? ¿Misma población? ¿Mismo corte? ¿El cambio es mayor que el error de muestreo?</p>
+<!-- TODO: "16 años o más, total nacional, ambos sexos" y "media anual" deben comprobarse en las tablas del INE enlazadas. -->
+<p>La fuente es la misma: EPA anual, tablas 65994 y 65995. La población es la misma: 16 años o más, total nacional, ambos sexos. El corte es el mismo: media anual. Entonces queda la pregunta decisiva: <strong>¿quién está en el denominador?</strong></p>
+<p>La tasa se calcula así (la fórmula, en la tarjeta).</p>
+<p>En 2006: 1.840,9 / 21.780,0 × 100 = <strong>8,45%</strong>.<br>En 2007: 1.846,1 / 22.426,1 × 100 = <strong>8,23%</strong>.</p>
+<p>Los parados subieron <strong>5,2 mil</strong>; la población activa subió <strong>646,1 mil</strong>. El denominador creció casi un <strong>3%</strong>; el numerador, un <strong>0,28%</strong>. Por eso la tasa bajó: no porque hubiera menos parados, sino porque el paro se dividió entre una población activa mayor.</p>
+<p>El aumento neto de activos se descompone en <strong>+640,9 mil ocupados</strong> y <strong>+5,2 mil parados</strong>. La tasa cayó porque el empleo creció mucho más que el paro.</p>
+</div>
+<div class="st">
+<div class="card">
+<blockquote><strong>tasa de paro = (parados / población activa) × 100</strong></blockquote>
+<figure style="padding:0;border:0;background:none">
+<svg viewBox="0 0 900 230" role="img" aria-labelledby="wt wd"><title id="wt">Cambios netos de la población activa, 2006 a 2007</title><desc id="wd">Activos 2006: 21.780,0 mil. Más 640,9 mil ocupados, más 5,2 mil parados, igual a activos 2007: 22.426,1 mil. A escala real desde cero, el aumento de parados es casi invisible.</desc>
+<line class="ax" x1="260" x2="260" y1="8" y2="205"/>
+<g class="t tv" style="text-anchor:end"><text x="250" y="31">Activos 2006</text><text x="250" y="81">+ ocupados</text><text x="250" y="131">+ parados</text><text x="250" y="181">= Activos 2007</text></g>
+<g class="t" style="text-anchor:end"><text x="250" y="46">21.780,0</text><text x="250" y="96">+640,9</text><text x="250" y="146">+5,2</text><text x="250" y="196">22.426,1</text></g>
+<rect x="260" y="16" width="582.7" height="26" fill="var(--ink2)" opacity=".55"/>
+<rect x="842.7" y="66" width="17.1" height="26" fill="var(--acc)"/>
+<rect x="859.8" y="116" width="1.5" height="26" fill="var(--cnt)"/>
+<rect x="260" y="166" width="600" height="26" fill="var(--ink2)" opacity=".55"/>
+</svg>
+<figcaption>Cambios netos, en miles de personas, a escala desde cero. Ocupados: derivados de activos − parados.</figcaption>
+<table class="sr"><caption>Cambios netos de la población activa (miles)</caption><tr><th>Concepto</th><th>Valor</th></tr><tr><td>Activos 2006</td><td>21.780,0</td></tr><tr><td>Aumento neto de ocupados</td><td>+640,9</td></tr><tr><td>Aumento neto de parados</td><td>+5,2</td></tr><tr><td>Activos 2007</td><td>22.426,1</td></tr></table>
+</figure>
+<details><summary>Ver el cálculo</summary><div>
+<pre>2006: 1.840,9 / 21.780,0 × 100 = 8,45%
+2007: 1.846,1 / 22.426,1 × 100 = 8,23%
+
+Activos 2006:                 21.780,0
++ aumento neto de ocupados:     +640,9
++ aumento neto de parados:        +5,2
+= activos 2007:               22.426,1</pre>
+<p class="note" style="font-size:.9rem;margin:.4rem 0 0">Ocupados = activos − parados (derivado, no dato oficial directo): 19.939,1 mil en 2006 y 20.580,0 mil en 2007.</p>
+</div></details>
+<details><summary>Ver un ejercicio aritmético</summary><div>
+<pre>1.846,1 / 21.780,0 × 100 = 8,48%</pre>
+<p class="warn">Ejercicio aritmético, no dato observado.</p>
+<p class="note" style="font-size:.9rem;margin:0">No es un escenario observado ni una predicción.</p>
+</div></details>
+</div>
+</div>
+</div>
+</div></section>
+
+<section class="rv"><div class="wrap">
+<div class="w"><h2>Escena 4 — La pregunta que el dato no responde</h2>
+<p>La tasa bajó. ¿Es buena noticia? Depende de la pregunta.</p></div>
+<div class="card c">
+<h3 style="margin-top:0">Lo que el dato no responde</h3>
+<div class="cols">
+<div><h3>Lo que la EPA puede decir</h3><p>Para las 5,2 mil personas que engrosaron el paro, el recuento subió. Para la proporción de la población activa que no encuentra empleo, la tasa bajó. La EPA describe las dos cosas.</p></div>
+<div><h3>Lo que no puede decidir</h3><p>Cuál importa más. Esa es la pregunta que el análisis no puede responder: <strong>¿qué queremos medir, el número de personas o la probabilidad de estar parado?</strong></p></div>
+</div></div>
+<div class="w">
+<p>Y hay una segunda pregunta: ¿la tasa bajó porque más gente encontró empleo o porque parte de los parados dejó de buscar y salió de la población activa? En 2006-2007 los ocupados también crecieron; pero la tasa, por sí sola, no distingue una mejora de un abandono.</p>
+</div></div></section>
+
+<section class="rv"><div class="wrap w">
+<h2>Escena 5 — El lenguaje de la decisión</h2>
+<p>Volvemos al titular. Antes de compartirlo, tres preguntas:</p>
+<ol class="chk" id="qs">
+<li><strong>¿La cifra es de personas o una tasa?</strong></li>
+<li><strong>¿Quién está en el denominador?</strong></li>
+<li><strong>¿Es la misma fuente y el mismo corte?</strong></li>
+</ol>
+<p>Si el titular no responde, no es un dato: es una hipótesis. Y si responde solo una, sigue siendo media historia.</p>
+<button type="button" id="cp" hidden>Copiar las tres preguntas</button>
+<span id="ok" class="note" role="status" style="margin-left:.6rem"></span>
+<textarea id="ta" rows="4" readonly hidden aria-label="Las tres preguntas, para copiar manualmente"></textarea>
+</div></section>
+
+<section class="rv"><div class="wrap w">
+<h2>Escena 6 — La comunidad que lee dos veces</h2>
+<p>El regalo no es una cifra nueva. Es una forma de mirar.</p>
+<p>La próxima vez que veas “el paro sube” o “el paro baja”, podrás preguntar: ¿sube el número o la tasa? ¿respecto a qué? ¿con qué denominador? No para elegir la cifra que confirma tu relato, sino para leer las dos juntas.</p>
+<p>Esa es la comunidad nueva: lectores que no confunden un recuento con una proporción y que pueden abrir la fuente para verificarlo. La EPA no cambia; cambia la forma en que la leemos.</p>
+<div class="fig2"><span><strong style="color:var(--cnt)">2.591.200</strong> parados</span><span><strong style="color:var(--rate)">10,18%</strong> tasa de paro</span></div>
+<p class="ui" style="font-size:1rem">Las tres preguntas: ¿personas o tasa? ¿quién está en el denominador? ¿misma fuente y mismo corte?</p>
+<p class="ui"><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65994" target="_blank" rel="noopener noreferrer"><strong>Abre las tablas del INE y comprueba las cifras</strong></a> (parados, tabla 65994 · tasa, tabla 65995).</p>
+</div></section>
+
+<section class="rv"><div class="wrap w">
+<h2>Fuentes y método</h2>
+<h3>Cómo se hizo</h3>
+<p>Este reportaje usa la <strong>Encuesta de Población Activa (EPA)</strong> del INE. No usa el paro registrado del SEPE: son fuentes distintas y no deben mezclarse. Las cifras anuales son medias de cuatro trimestres; el 3T 2026 es un dato trimestral. La EPA es una encuesta: los cambios pequeños pueden no ser estadísticamente significativos. No se afirma causalidad. Todas las cifras se pueden reproducir con las tablas enlazadas.</p>
+<h3>Fuentes</h3>
+<ul class="src">
+<li><a href="https://www.ine.es/dyngs/Prensa/EPA3T26.htm" target="_blank" rel="noopener noreferrer">INE, EPA 3T 2026, nota de prensa</a></li>
+<li><a href="https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&amp;cid=1254736176918&amp;menu=metodologia&amp;idp=1254735976595" target="_blank" rel="noopener noreferrer">INE, EPA, metodología</a></li>
+<li><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65994" target="_blank" rel="noopener noreferrer">Parados anual, tabla 65994</a></li>
+<li><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65995" target="_blank" rel="noopener noreferrer">Tasa anual, tabla 65995</a></li>
+<li><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65949" target="_blank" rel="noopener noreferrer">Activos anual, tabla 65949</a></li>
+<li><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65218" target="_blank" rel="noopener noreferrer">Parados trimestral, tabla 65218</a></li>
+<li><a href="https://www.ine.es/jaxiT3/Datos.htm?t=65219" target="_blank" rel="noopener noreferrer">Tasa trimestral, tabla 65219</a></li>
+</ul>
+<details><summary>Verificación técnica</summary><div><ul class="src">
+<li><a href="https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65218?nult=8" target="_blank" rel="noopener noreferrer">https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65218?nult=8</a></li>
+<li><a href="https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65219?nult=8" target="_blank" rel="noopener noreferrer">https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65219?nult=8</a></li>
+<li><a href="https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65994?nult=30" target="_blank" rel="noopener noreferrer">https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65994?nult=30</a></li>
+<li><a href="https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65995?nult=30" target="_blank" rel="noopener noreferrer">https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65995?nult=30</a></li>
+<li><a href="https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65949?nult=30" target="_blank" rel="noopener noreferrer">https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/65949?nult=30</a></li>
+</ul></div></details>
+<h3>Lo que este reportaje no afirma</h3>
+<ul>
+<li>No afirma que el paro haya bajado en 2007: el número de parados subió.</li>
+<li>No afirma que la tasa sea más verdadera que el recuento: ambas son correctas.</li>
+<li>No afirma que la población activa creciera por una causa concreta.</li>
+<li>No afirma que el cambio sea una tendencia.</li>
+<li>No afirma que la tasa baje siempre que suba la población activa; solo muestra el mecanismo aritmético de este caso.</li>
+</ul>
+<details><summary>Cómo se construyó este relato</summary><div><ul>
+<li>Patrón: confusión aclarada.</li>
+<li>Orden: monomito en seis etapas.</li>
+<li>Funciones: Héroe (lector), Mentor (analista/INE), Heraldo (dato 2006-2007), Guardián del umbral (objeción metodológica), Camaleón (el indicador “paro”), Trickster (revelador).</li>
+<li>Figuras de deseo: Sabio + Hombre común; Explorador como apoyo; Bufón en dosis mínimas.</li>
+</ul></div></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<p>Datos: EPA 3T 2026, publicada el 27/10/2026. Actualizado: 14/11/2026.<br>Ciencia de Datos</p>
+</div></footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
