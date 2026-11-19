@@ -1,0 +1,12 @@
+{
+  "datos": [
+    {"dato":"Ventas totales","valor":"65 millones de copias (top 10 histórico)","fuente":"https://es.ign.com/the-elder-scrolls-v-skyrim/231663/skyrim-sigue-haciendo-historia-15-anos-despues-ya-es-uno-de-los-10-juegos-mas-vendidos-de-todos-los"},
+    {"dato":"Ventas primeras 48 h","valor":"3,5 millones de copias (récord Guinness al RPG de mundo abierto más rápido)","fuente":"https://www.guinnessworldrecords.com/world-records/fastest-selling-open-world-rpg-videogame"},
+    {"dato":"Jugadores simultáneos (2025)","valor":"68.000 en Steam","fuente":"https://www.gamereactor.es/the-elder-scrolls-v-skyrim-casi-alcanza-un-nuevo-maximo-con-68000-jugadores-simultaneos-en-steam-1320173/"},
+    {"dato":"Récord histórico en Steam","valor":"69.900 jugadores simultáneos","fuente":"https://steamdb.info/app/489830/charts/"},
+    {"dato":"Mods en Nexus Mods (Special Edition)","valor":"144.000","fuente":"https://itc.ua/news/skyrim-yspolnylos-15-let-no-ygra-ne-teryaet-aktualnosty-bethesda-y-moddery-podgotovyly-novynky/"},
+    {"dato":"Descargas totales de mods","valor":"13.700 millones","fuente":"https://itc.ua/news/skyrim-yspolnylos-15-let-no-ygra-ne-teryaet-aktualnosty-bethesda-y-moddery-podgotovyly-novynky/"},
+    {"dato":"Finalización de la trama principal","valor":"31,5 % (logro de matar a Alduin en Steam)","fuente":"https://dotesports.com/skyrim/news/12-years-on-a-huge-number-of-skyrim-players-still-havent-finished-the-game"},
+    {"dato":"Reseñas positivas en Steam","valor":"94 % (sobre 167.147 reseñas)","fuente":"https://store.steampowered.com/app/489830"}
+  ]
+}
